@@ -1,0 +1,22 @@
+{
+  "name": "log_monitor",
+  "version": "1.4.3",
+  "preferGlobal": "true",
+  "bin": "./index.js",
+  "description": "A command line tool and library to monitor node server logs in real time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Richard Widmann",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.0",
+    "hook-std": "^0.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/erwidman/log_monitor",
+    "email": "widmanneric@gmail.com"
+  }
+}

@@ -42,19 +42,19 @@
 
 ```
 
-	log_monitor connect 8.8.8.8 8000
+	log_monitor connect 8.8.8.8 8000	
 
 ```
 
 ###Linking a color specification:
 
 > color.json
-```
+```json
 
 	{
 		"ERROR:[0-9]" : {
 			"fg" :"#343434",
-			"bg" : "#FF4444",									
+			"bg" : "#FF4444",		
 			"style" : "bold"
 		},
 		"CREDIT CARD READER" : {
@@ -77,7 +77,6 @@
 ##Events
 
 **socket_open**<br/> 
-
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;socket : A net.Socket Object of connected TCP Socket [socket docs](https://nodejs.org/api/net.html#net_class_net_socket)
 
 **socket_closed**<br/>

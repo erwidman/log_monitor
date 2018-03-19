@@ -8,7 +8,7 @@
 ## Installation
 ```
 
-	npm install -g log_monitor					
+	npm install -g log_monitor			
 
 ```
 
@@ -28,7 +28,7 @@
 		//handle error
 	});
 
-	logServer.closeLog()							
+	logServer.closeLog()			
 	.then(()=>{
 		//handle close
 	})
@@ -42,7 +42,7 @@
 
 ```
 
-	log_monitor connect 8.8.8.8 8000							
+	log_monitor connect 8.8.8.8 8000		
 
 ```
 
@@ -53,7 +53,7 @@
 
 	{
 		"ERROR:[0-9]" : {
-			"fg" :"#343434",			 			
+			"fg" :"#343434",
 			"bg" : "#FF4444",									
 			"style" : "bold"
 		},
@@ -68,7 +68,7 @@
 > invocation
 ```
 
-	log_monitor connect 8.8.8.8 8000 --color color.json							
+	log_monitor connect 8.8.8.8 8000 --color color.json						
 
 ```
 
@@ -85,17 +85,14 @@
  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;socket : A net.Socket Object of connected TCP Socket [socket docs](https://nodejs.org/api/net.html#net_class_net_socket)
 
 **socket_data**<br/>
-&nbsp; &nbsp;Callback parameters<br/>
   &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;socket : A net.Socket Object of connected TCP Socket [socket docs](https://nodejs.org/api/net.html#net_class_net_socket)</br>
    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;data: A byte buffer containing data sent by above socket
 
 **socket_error**<br/> 
-&nbsp; &nbsp;Callback parameters<br/> 
   &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;socket : A net.Socket Object of connected TCP Socket [socket docs](https://nodejs.org/api/net.html#net_class_net_socket)</br>
    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;err: Some error
 
 **server_error**.<br/>
-&nbsp; &nbsp;Callback parameter<br/>
     &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;err : Some error
 
 ```javascript

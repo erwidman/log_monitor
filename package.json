@@ -1,6 +1,6 @@
 {
   "name": "log_monitor",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "preferGlobal": "true",
   "bin": "./index.js",
   "description": "A command line tool and library to monitor node server logs in real time.",

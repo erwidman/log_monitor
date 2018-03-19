@@ -42,7 +42,7 @@
 
 ```
 
-	log_monitor connect 8.8.8.8 8000		
+	log_monitor connect 8.8.8.8 8000
 
 ```
 
@@ -68,7 +68,7 @@
 > invocation
 ```
 
-	log_monitor connect 8.8.8.8 8000 --color color.json						
+	log_monitor connect 8.8.8.8 8000 --color color.json			
 
 ```
 
@@ -77,11 +77,10 @@
 ##Events
 
 **socket_open**<br/> 
-&nbsp; &nbsp;Callback parameters<br/>
+
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;socket : A net.Socket Object of connected TCP Socket [socket docs](https://nodejs.org/api/net.html#net_class_net_socket)
 
 **socket_closed**<br/>
-&nbsp; &nbsp;Callback parameters<br/>
  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;socket : A net.Socket Object of connected TCP Socket [socket docs](https://nodejs.org/api/net.html#net_class_net_socket)
 
 **socket_data**<br/>
@@ -97,7 +96,7 @@
 
 ```javascript
 
-	const logServer = require("log_monitor");				
+	const logServer = require("log_monitor");	
 
 	logServer.on("socket_opened",(socket)=>{
 		//handle connection

@@ -15,8 +15,6 @@
     "commander": "^2.15.0",
     "hook-std": "^0.4.0"
   },
-  "bugs": {
-    "url": "https://github.com/erwidman/log_monitor",
-    "email": "widmanneric@gmail.com"
-  }
+  "homepage": "https://github.com/erwidman/chrome-based-voice-recognition-api",
+  "url": "https://github.com/erwidman/chrome-based-voice-recognition-api/issues"
 }
